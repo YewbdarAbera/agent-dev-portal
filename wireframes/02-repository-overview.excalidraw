@@ -1,0 +1,443 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "frame-bg",
+      "type": "rectangle",
+      "x": 0, "y": 0, "width": 1280, "height": 800,
+      "strokeColor": "#334155", "backgroundColor": "#0f1117",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 1
+    },
+    {
+      "id": "topbar",
+      "type": "rectangle",
+      "x": 0, "y": 0, "width": 1280, "height": 52,
+      "strokeColor": "#334155", "backgroundColor": "#1a1d27",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 2
+    },
+    {
+      "id": "topbar-text",
+      "type": "text",
+      "x": 20, "y": 14,
+      "text": "🤖  Agent Dev Portal   |   Git Repository Workflow + AI Agent Execution",
+      "fontSize": 15, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#818cf8", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 3
+    },
+    {
+      "id": "left-panel",
+      "type": "rectangle",
+      "x": 0, "y": 52, "width": 300, "height": 748,
+      "strokeColor": "#334155", "backgroundColor": "#1a1d27",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 70, "angle": 0, "strokeStyle": "solid", "seed": 4
+    },
+    {
+      "id": "left-label",
+      "type": "text",
+      "x": 80, "y": 415,
+      "text": "← Repo list (dimmed)",
+      "fontSize": 13, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#334155", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 5
+    },
+    {
+      "id": "center-panel",
+      "type": "rectangle",
+      "x": 300, "y": 52, "width": 490, "height": 748,
+      "strokeColor": "#334155", "backgroundColor": "#1a1d27",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 6
+    },
+    {
+      "id": "repo-title",
+      "type": "text",
+      "x": 318, "y": 72,
+      "text": "payment-service",
+      "fontSize": 22, "fontFamily": 1, "fontStyle": "bold",
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#e2e8f0", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 7
+    },
+    {
+      "id": "visibility-chip",
+      "type": "rectangle",
+      "x": 500, "y": 74, "width": 54, "height": 22,
+      "strokeColor": "#fbbf24", "backgroundColor": "rgba(251,191,36,0.12)",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 8
+    },
+    {
+      "id": "visibility-text",
+      "type": "text",
+      "x": 508, "y": 78,
+      "text": "private",
+      "fontSize": 11, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#fbbf24", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 9
+    },
+    {
+      "id": "health-circle",
+      "type": "ellipse",
+      "x": 726, "y": 62, "width": 60, "height": 60,
+      "strokeColor": "#34d399", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 3,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 10
+    },
+    {
+      "id": "health-value",
+      "type": "text",
+      "x": 742, "y": 84,
+      "text": "91",
+      "fontSize": 16, "fontFamily": 1, "fontStyle": "bold",
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#34d399", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 11
+    },
+    {
+      "id": "health-label",
+      "type": "text",
+      "x": 728, "y": 128,
+      "text": "Health",
+      "fontSize": 10, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#64748b", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 12
+    },
+    {
+      "id": "repo-desc",
+      "type": "text",
+      "x": 318, "y": 104,
+      "text": "Handles all payment processing and billing workflows.",
+      "fontSize": 13, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#64748b", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 13
+    },
+    {
+      "id": "divider1",
+      "type": "line",
+      "x": 310, "y": 144, "width": 470, "height": 0,
+      "strokeColor": "#334155",
+      "strokeWidth": 1, "roughness": 0, "opacity": 100,
+      "angle": 0, "strokeStyle": "solid", "seed": 14,
+      "points": [[0,0],[470,0]]
+    },
+    {
+      "id": "stat-grid-title",
+      "type": "text",
+      "x": 318, "y": 156,
+      "text": "Repository Stats",
+      "fontSize": 12, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#64748b", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 15
+    },
+    {
+      "id": "stat1",
+      "type": "rectangle",
+      "x": 318, "y": 176, "width": 105, "height": 52,
+      "strokeColor": "#334155", "backgroundColor": "rgba(255,255,255,0.02)",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 16
+    },
+    {
+      "id": "stat1-text",
+      "type": "text",
+      "x": 325, "y": 184,
+      "text": "Stars\n⭐ 142",
+      "fontSize": 12, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#e2e8f0", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 17
+    },
+    {
+      "id": "stat2",
+      "type": "rectangle",
+      "x": 432, "y": 176, "width": 105, "height": 52,
+      "strokeColor": "#334155", "backgroundColor": "rgba(255,255,255,0.02)",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 18
+    },
+    {
+      "id": "stat2-text",
+      "type": "text",
+      "x": 440, "y": 184,
+      "text": "Forks\n⑂ 28",
+      "fontSize": 12, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#e2e8f0", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 19
+    },
+    {
+      "id": "stat3",
+      "type": "rectangle",
+      "x": 546, "y": 176, "width": 105, "height": 52,
+      "strokeColor": "#334155", "backgroundColor": "rgba(255,255,255,0.02)",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 20
+    },
+    {
+      "id": "stat3-text",
+      "type": "text",
+      "x": 554, "y": 184,
+      "text": "Issues\n⚠ 7",
+      "fontSize": 12, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#fbbf24", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 21
+    },
+    {
+      "id": "stat4",
+      "type": "rectangle",
+      "x": 660, "y": 176, "width": 105, "height": 52,
+      "strokeColor": "#334155", "backgroundColor": "rgba(255,255,255,0.02)",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 22
+    },
+    {
+      "id": "stat4-text",
+      "type": "text",
+      "x": 668, "y": 184,
+      "text": "Open PRs\n⟳ 3",
+      "fontSize": 12, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#e2e8f0", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 23
+    },
+    {
+      "id": "coverage-label",
+      "type": "text",
+      "x": 318, "y": 244,
+      "text": "Test Coverage   87%",
+      "fontSize": 12, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#34d399", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 24
+    },
+    {
+      "id": "coverage-track",
+      "type": "rectangle",
+      "x": 318, "y": 262, "width": 450, "height": 8,
+      "strokeColor": "#334155", "backgroundColor": "#1e2535",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 25
+    },
+    {
+      "id": "coverage-fill",
+      "type": "rectangle",
+      "x": 318, "y": 262, "width": 391, "height": 8,
+      "strokeColor": "#34d399", "backgroundColor": "#34d399",
+      "fillStyle": "solid", "strokeWidth": 0,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 26
+    },
+    {
+      "id": "divider2",
+      "type": "line",
+      "x": 310, "y": 284, "width": 470, "height": 0,
+      "strokeColor": "#334155",
+      "strokeWidth": 1, "roughness": 0, "opacity": 100,
+      "angle": 0, "strokeStyle": "solid", "seed": 27,
+      "points": [[0,0],[470,0]]
+    },
+    {
+      "id": "task-section-label",
+      "type": "text",
+      "x": 318, "y": 296,
+      "text": "Choose an agent task",
+      "fontSize": 13, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#94a3b8", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 28
+    },
+    {
+      "id": "task1",
+      "type": "rectangle",
+      "x": 318, "y": 318, "width": 135, "height": 70,
+      "strokeColor": "#6366f1", "backgroundColor": "rgba(99,102,241,0.12)",
+      "fillStyle": "solid", "strokeWidth": 2,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 29
+    },
+    {
+      "id": "task1-text",
+      "type": "text",
+      "x": 325, "y": 328,
+      "text": "⟳ Create PR\n~1 min",
+      "fontSize": 12, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#818cf8", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 30
+    },
+    {
+      "id": "task2",
+      "type": "rectangle",
+      "x": 462, "y": 318, "width": 135, "height": 70,
+      "strokeColor": "#334155", "backgroundColor": "rgba(255,255,255,0.02)",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 31
+    },
+    {
+      "id": "task2-text",
+      "type": "text",
+      "x": 469, "y": 328,
+      "text": "✦ Refactor\n~3 min",
+      "fontSize": 12, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#94a3b8", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 32
+    },
+    {
+      "id": "task3",
+      "type": "rectangle",
+      "x": 606, "y": 318, "width": 135, "height": 70,
+      "strokeColor": "#334155", "backgroundColor": "rgba(255,255,255,0.02)",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 33
+    },
+    {
+      "id": "task3-text",
+      "type": "text",
+      "x": 613, "y": 328,
+      "text": "⎋ Dep Scan\n~2 min",
+      "fontSize": 12, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#94a3b8", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 34
+    },
+    {
+      "id": "task4",
+      "type": "rectangle",
+      "x": 318, "y": 398, "width": 135, "height": 70,
+      "strokeColor": "#334155", "backgroundColor": "rgba(255,255,255,0.02)",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 35
+    },
+    {
+      "id": "task4-text",
+      "type": "text",
+      "x": 325, "y": 408,
+      "text": "🐛 Run Tests\n~4 min",
+      "fontSize": 12, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#94a3b8", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 36
+    },
+    {
+      "id": "task5",
+      "type": "rectangle",
+      "x": 462, "y": 398, "width": 135, "height": 70,
+      "strokeColor": "#334155", "backgroundColor": "rgba(255,255,255,0.02)",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 37
+    },
+    {
+      "id": "task5-text",
+      "type": "text",
+      "x": 469, "y": 408,
+      "text": "✎ AI Review\n~2 min",
+      "fontSize": 12, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#94a3b8", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 38
+    },
+    {
+      "id": "task6",
+      "type": "rectangle",
+      "x": 606, "y": 398, "width": 135, "height": 70,
+      "strokeColor": "#334155", "backgroundColor": "rgba(255,255,255,0.02)",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 39
+    },
+    {
+      "id": "task6-text",
+      "type": "text",
+      "x": 613, "y": 408,
+      "text": "🛡 Sec Scan\n~3 min",
+      "fontSize": 12, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#94a3b8", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 40
+    },
+    {
+      "id": "run-btn",
+      "type": "rectangle",
+      "x": 318, "y": 700, "width": 450, "height": 52,
+      "strokeColor": "#6366f1", "backgroundColor": "#4f46e5",
+      "fillStyle": "solid", "strokeWidth": 0,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 41
+    },
+    {
+      "id": "run-btn-text",
+      "type": "text",
+      "x": 448, "y": 717,
+      "text": "▶   Run Agent Task",
+      "fontSize": 15, "fontFamily": 1, "fontStyle": "bold",
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#ffffff", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 42
+    },
+    {
+      "id": "right-placeholder",
+      "type": "rectangle",
+      "x": 790, "y": 52, "width": 490, "height": 748,
+      "strokeColor": "#1e2535", "backgroundColor": "#0f1117",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 60, "angle": 0, "strokeStyle": "dashed", "seed": 43
+    },
+    {
+      "id": "annotation-1",
+      "type": "text",
+      "x": 310, "y": 756,
+      "text": "① Task card highlights when selected   ② Run button activates only after selection   ③ Health score = color-coded ring",
+      "fontSize": 11, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#6366f1", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 44
+    },
+    {
+      "id": "wireframe-title",
+      "type": "text",
+      "x": 900, "y": 760,
+      "text": "Wireframe 2/3 — Repository Overview   |   Author: Yewbdar Abera   |   May 2026",
+      "fontSize": 11, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#334155", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 45
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#0f1117"
+  },
+  "files": {}
+}

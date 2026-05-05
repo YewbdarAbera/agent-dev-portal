@@ -1,0 +1,402 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "frame-bg",
+      "type": "rectangle",
+      "x": 0, "y": 0, "width": 1280, "height": 800,
+      "strokeColor": "#334155", "backgroundColor": "#0f1117",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 1
+    },
+    {
+      "id": "topbar",
+      "type": "rectangle",
+      "x": 0, "y": 0, "width": 1280, "height": 52,
+      "strokeColor": "#334155", "backgroundColor": "#1a1d27",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 2
+    },
+    {
+      "id": "topbar-text",
+      "type": "text",
+      "x": 20, "y": 14,
+      "text": "🤖  Agent Dev Portal   |   Git Repository Workflow + AI Agent Execution",
+      "fontSize": 15, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#818cf8", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 3
+    },
+    {
+      "id": "left-panel",
+      "type": "rectangle",
+      "x": 0, "y": 52, "width": 300, "height": 748,
+      "strokeColor": "#334155", "backgroundColor": "#1a1d27",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 50, "angle": 0, "strokeStyle": "solid", "seed": 4
+    },
+    {
+      "id": "center-panel",
+      "type": "rectangle",
+      "x": 300, "y": 52, "width": 490, "height": 748,
+      "strokeColor": "#334155", "backgroundColor": "#1a1d27",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 50, "angle": 0, "strokeStyle": "solid", "seed": 5
+    },
+    {
+      "id": "right-panel",
+      "type": "rectangle",
+      "x": 790, "y": 52, "width": 490, "height": 748,
+      "strokeColor": "#334155", "backgroundColor": "#1a1d27",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 6
+    },
+    {
+      "id": "panel-header",
+      "type": "text",
+      "x": 808, "y": 72,
+      "text": "⬛  Agent Execution",
+      "fontSize": 18, "fontFamily": 1, "fontStyle": "bold",
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#e2e8f0", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 7
+    },
+    {
+      "id": "status-running",
+      "type": "rectangle",
+      "x": 1188, "y": 68, "width": 80, "height": 26,
+      "strokeColor": "#38bdf8", "backgroundColor": "rgba(56,189,248,0.12)",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 8
+    },
+    {
+      "id": "status-text",
+      "type": "text",
+      "x": 1196, "y": 74,
+      "text": "● Running",
+      "fontSize": 12, "fontFamily": 1, "fontStyle": "bold",
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#38bdf8", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 9
+    },
+    {
+      "id": "task-info-box",
+      "type": "rectangle",
+      "x": 800, "y": 108, "width": 465, "height": 56,
+      "strokeColor": "#334155", "backgroundColor": "rgba(255,255,255,0.03)",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 10
+    },
+    {
+      "id": "task-info-label",
+      "type": "text",
+      "x": 812, "y": 116,
+      "text": "Dependency Scan",
+      "fontSize": 14, "fontFamily": 1, "fontStyle": "bold",
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#818cf8", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 11
+    },
+    {
+      "id": "task-info-desc",
+      "type": "text",
+      "x": 812, "y": 136,
+      "text": "Checks for outdated or vulnerable packages and proposes upgrades.",
+      "fontSize": 11, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#64748b", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 12
+    },
+    {
+      "id": "divider",
+      "type": "line",
+      "x": 800, "y": 174, "width": 465, "height": 0,
+      "strokeColor": "#334155",
+      "strokeWidth": 1, "roughness": 0, "opacity": 100,
+      "angle": 0, "strokeStyle": "solid", "seed": 13,
+      "points": [[0,0],[465,0]]
+    },
+    {
+      "id": "log-area",
+      "type": "rectangle",
+      "x": 800, "y": 182, "width": 465, "height": 460,
+      "strokeColor": "#1e2535", "backgroundColor": "#0d1117",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 14
+    },
+    {
+      "id": "log1",
+      "type": "text",
+      "x": 812, "y": 194,
+      "text": "10:31:02  INFO   Reading package.json...",
+      "fontSize": 11, "fontFamily": 3,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#94a3b8", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 15
+    },
+    {
+      "id": "log2",
+      "type": "text",
+      "x": 812, "y": 212,
+      "text": "10:31:03  INFO   Checking 47 direct dependencies...",
+      "fontSize": 11, "fontFamily": 3,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#94a3b8", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 16
+    },
+    {
+      "id": "log3",
+      "type": "text",
+      "x": 812, "y": 230,
+      "text": "10:31:04  WARN   lodash@4.17.20 — 2 moderate vulnerabilities.",
+      "fontSize": 11, "fontFamily": 3,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#fbbf24", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 17
+    },
+    {
+      "id": "log4",
+      "type": "text",
+      "x": 812, "y": 248,
+      "text": "10:31:05  WARN   axios@0.27.2 is 3 major versions behind.",
+      "fontSize": 11, "fontFamily": 3,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#fbbf24", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 18
+    },
+    {
+      "id": "log5",
+      "type": "text",
+      "x": 812, "y": 266,
+      "text": "10:31:06  ERR    CVE-2025-4821: critical in json-parse-...",
+      "fontSize": 11, "fontFamily": 3,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#f87171", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 19
+    },
+    {
+      "id": "log6",
+      "type": "text",
+      "x": 812, "y": 284,
+      "text": "10:31:07  INFO   Generating upgrade diff...",
+      "fontSize": 11, "fontFamily": 3,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#94a3b8", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 20
+    },
+    {
+      "id": "log7",
+      "type": "text",
+      "x": 812, "y": 302,
+      "text": "10:31:08  OK     Scan complete. 1 critical, 2 moderate, 4 minor.",
+      "fontSize": 11, "fontFamily": 3,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#34d399", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 21
+    },
+    {
+      "id": "cursor-blink",
+      "type": "rectangle",
+      "x": 812, "y": 322, "width": 8, "height": 13,
+      "strokeColor": "#818cf8", "backgroundColor": "#818cf8",
+      "fillStyle": "solid", "strokeWidth": 0,
+      "roughness": 0, "opacity": 80, "angle": 0, "strokeStyle": "solid", "seed": 22
+    },
+    {
+      "id": "summary-alert",
+      "type": "rectangle",
+      "x": 800, "y": 654, "width": 465, "height": 44,
+      "strokeColor": "#f87171", "backgroundColor": "rgba(248,113,113,0.08)",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 23
+    },
+    {
+      "id": "summary-text",
+      "type": "text",
+      "x": 812, "y": 666,
+      "text": "⚠  Task completed with errors. Review the log for details.",
+      "fontSize": 12, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#f87171", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 24
+    },
+    {
+      "id": "retry-btn",
+      "type": "rectangle",
+      "x": 800, "y": 708, "width": 225, "height": 42,
+      "strokeColor": "#6366f1", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 25
+    },
+    {
+      "id": "retry-text",
+      "type": "text",
+      "x": 858, "y": 720,
+      "text": "↺  Retry",
+      "fontSize": 13, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#818cf8", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 26
+    },
+    {
+      "id": "details-btn",
+      "type": "rectangle",
+      "x": 1036, "y": 708, "width": 229, "height": 42,
+      "strokeColor": "#6366f1", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 27
+    },
+    {
+      "id": "details-text",
+      "type": "text",
+      "x": 1072, "y": 720,
+      "text": "ℹ  View Details",
+      "fontSize": 13, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#818cf8", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 28
+    },
+    {
+      "id": "drawer-overlay",
+      "type": "rectangle",
+      "x": 0, "y": 52, "width": 790, "height": 748,
+      "strokeColor": "transparent", "backgroundColor": "#000000",
+      "fillStyle": "solid", "strokeWidth": 0,
+      "roughness": 0, "opacity": 30, "angle": 0, "strokeStyle": "solid", "seed": 29
+    },
+    {
+      "id": "drawer-panel",
+      "type": "rectangle",
+      "x": 270, "y": 52, "width": 520, "height": 748,
+      "strokeColor": "#334155", "backgroundColor": "#1a1d27",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 30
+    },
+    {
+      "id": "drawer-title",
+      "type": "text",
+      "x": 286, "y": 72,
+      "text": "Dependency Scan — Details",
+      "fontSize": 17, "fontFamily": 1, "fontStyle": "bold",
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#e2e8f0", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 31
+    },
+    {
+      "id": "drawer-close",
+      "type": "text",
+      "x": 756, "y": 72,
+      "text": "✕",
+      "fontSize": 16, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#64748b", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 32
+    },
+    {
+      "id": "drawer-status-row",
+      "type": "text",
+      "x": 286, "y": 108,
+      "text": "⚠ Failed   ·   Started 10:31:02   ·   7.1s",
+      "fontSize": 12, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#f87171", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 33
+    },
+    {
+      "id": "drawer-summary-box",
+      "type": "rectangle",
+      "x": 280, "y": 132, "width": 490, "height": 40,
+      "strokeColor": "#f87171", "backgroundColor": "rgba(248,113,113,0.08)",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 34
+    },
+    {
+      "id": "drawer-summary-text",
+      "type": "text",
+      "x": 292, "y": 144,
+      "text": "Task completed with errors. Review the log for details.",
+      "fontSize": 12, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#f87171", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 35
+    },
+    {
+      "id": "drawer-log-title",
+      "type": "text",
+      "x": 286, "y": 188,
+      "text": "Full Log",
+      "fontSize": 13, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#64748b", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 36
+    },
+    {
+      "id": "drawer-log-area",
+      "type": "rectangle",
+      "x": 280, "y": 208, "width": 490, "height": 340,
+      "strokeColor": "#1e2535", "backgroundColor": "#0d1117",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "strokeStyle": "solid", "seed": 37
+    },
+    {
+      "id": "drawer-log-content",
+      "type": "text",
+      "x": 290, "y": 220,
+      "text": "10:31:02  INFO   Reading package.json...\n10:31:03  INFO   Checking 47 direct dependencies...\n10:31:04  WARN   lodash@4.17.20 — 2 moderate issues\n10:31:05  WARN   axios@0.27.2 — 3 versions behind\n10:31:06  ERR    CVE-2025-4821: critical severity found\n10:31:07  INFO   Generating upgrade diff...\n10:31:08  OK     Scan complete. 1 critical, 2 mod, 4 minor.",
+      "fontSize": 11, "fontFamily": 3,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#94a3b8", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 38
+    },
+    {
+      "id": "annotation1",
+      "type": "text",
+      "x": 800, "y": 756,
+      "text": "① Logs stream in line by line   ② Status badge pulses while running   ③ Details drawer slides in from right   ④ Retry re-runs same task",
+      "fontSize": 11, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#6366f1", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 39
+    },
+    {
+      "id": "wireframe-title",
+      "type": "text",
+      "x": 800, "y": 770,
+      "text": "Wireframe 3/3 — Agent Execution + Details Drawer   |   Author: Yewbdar Abera   |   May 2026",
+      "fontSize": 11, "fontFamily": 1,
+      "textAlign": "left", "verticalAlign": "top",
+      "strokeColor": "#334155", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1,
+      "roughness": 0, "opacity": 100, "angle": 0, "seed": 40
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#0f1117"
+  },
+  "files": {}
+}
