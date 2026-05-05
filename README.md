@@ -5,6 +5,8 @@
 
 A developer portal for browsing Git repositories, viewing repo health insights, and triggering AI agent tasks — all in one three-column UI.
 
+![Agent Dev Portal](./public/screenshot.png)
+
 ---
 
 ## Getting started
