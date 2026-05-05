@@ -3,9 +3,11 @@
 **Author:** Yewbdar Abera  
 **Date:** May 4, 2026
 
-A developer portal for browsing Git repositories, viewing repo health insights, and triggering AI agent tasks — all in one three-column UI.
+A developer portal for browsing Git repositories, viewing repo health insights, and triggering AI agent tasks. Three-column layout, fully mocked, no backend required.
 
-![Agent Dev Portal](./public/screenshot.png)
+<p align="center">
+  <img src="./public/screenshot.png" alt="Agent Dev Portal screenshot" width="100%" style="border-radius: 10px; border: 1px solid #30363d;" />
+</p>
 
 ---
 
@@ -66,11 +68,11 @@ The app has three panels side by side:
 
 | Panel | What it does |
 |---|---|
-| **Left — Repository List** | Browse 8 mock repos, search by name, filter by language, select a repo |
-| **Center — Repository Overview** | View health score, stats (stars/forks/issues/PRs), test coverage, and pick an agent task to run |
-| **Right — Agent Execution** | Watch streaming log output, see status (pending → running → success/failure), retry or view full details in a drawer |
+| **Left: Repository List** | Browse 8 mock repos, search by name, filter by language, select a repo |
+| **Center: Repository Overview** | View health score, stats (stars/forks/issues/PRs), test coverage, and pick an agent task to run |
+| **Right: Agent Execution** | Watch streaming log output, see status (pending, running, success/failure), retry or view full details in a drawer |
 
-All data is mocked — no backend required.
+All data is mocked. No backend required.
 
 ---
 
@@ -93,9 +95,9 @@ All data is mocked — no backend required.
 
 ```
 src/
-├── main.tsx                       # Entry point — mounts React app
+├── main.tsx                       # Entry point, mounts React app
 ├── index.css                      # Global base styles
-├── App.tsx                        # Root — owns selected repo + execution state
+├── App.tsx                        # Root, owns selected repo + execution state
 ├── components/
 │   ├── Layout/
 │   │   └── AppLayout.tsx          # Three-column shell
@@ -149,8 +151,8 @@ wireframes/
 
 ---
 
-## Part 1 — UX Design Deliverables
+## Part 1 - UX Design Deliverables
 
 The `wireframes/` folder contains the Part 1 submission: three mid-fidelity wireframes and a full UX decision writeup.
 
-**[View the UX Design Writeup →](./wireframes/README.md)**
+**[View the UX Design Writeup](./wireframes/README.md)**
